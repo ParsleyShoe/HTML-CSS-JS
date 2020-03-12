@@ -1,0 +1,16 @@
+* {
+    font-family: 'Fira Code';
+    background-color: #DCCAE5;
+}
+#op1, #op2, #output {
+    max-width: 20%;
+}
+div>* {
+    text-align: center;
+}
+div {
+    margin-bottom: 50px;
+}
+span {
+    color: #007bff;
+}

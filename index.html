@@ -1,11 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Index</title>
 </head>
 <body>
-    
+    <div>
+    <!-- <div style="text-align: center; vertical-align: middle;"> -->
+        <p>This is graduation day for the part-time <span class="font-italic">Java</span> boot camp.</p>
+        <div>
+            <button class="btn btn-sm btn-outline-primary" onclick="clickme()">This is a button</button>
+            <input id="inp" type="text" placeholder="Starting text">
+            <label id="lbl"></label>
+        </div>
+        <div class="input-group mb-3" style="text-align: center !important;">
+            <input id="op1" type="text" class="form-control" placeholder="Input number 1" aria-label="Input number 1" aria-describedby="basic-addon1">
+            <button class="btn btn-outline-primary" onclick="addTheTwo()">+</button>
+            <input id="op2" type="text" class="form-control" placeholder="Input number 2" aria-label="Input number 2" aria-describedby="basic-addon1">
+            <label id="output" type="text" class="form-control" aria-describedby="basic-addon1"></label>
+        </div>
+        <div>
+            <label id="output2" type="text"></label>
+            <input id="input2" type="text" placeholder="Starting text">
+            <button class="btn btn-primary" onclick="add()">Add</button>
+            <button class="btn btn-primary" onclick="clear()">Clear</button>
+        </div>
+    </div>
 </body>
 </html>
