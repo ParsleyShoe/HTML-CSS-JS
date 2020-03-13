@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    width: 50%;
+}
+html, body {
+    background-color: #f6ff79;
+}

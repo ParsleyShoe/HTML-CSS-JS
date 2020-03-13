@@ -8,7 +8,13 @@ const addTheTwo = () => {
     let op1 = +(document.getElementById("op1").value);
     let op2 = +(document.getElementById("op2").value);
     let outputLabel = document.getElementById("output");
-    outputLabel.innerHTML = op1 + op2;
+    let answer = op1 + op2;
+    if (answer % 3 == 0) {
+        outputLabel.style.color = "blue";
+    } else {
+        outputLabel.style.color = "black";
+    }
+    outputLabel.innerHTML = answer;
 }
 
 const add = () => {
