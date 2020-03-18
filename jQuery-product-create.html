@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jQuery-product-create.js"></script>
+    <title>Add New Product</title>
+</head>
+<body>
+    <div style="width: 75%; text-align: center;">
+        <input id="partnumber" type="text" placeholder="Part #">
+        <input id="name" type="text" placeholder="Name">
+        <input id="price" type="number" placeholder="Price">
+        <input id="unit" type="text" placeholder="Unit">
+        <select name="vendor" id="vendor-list"></select>
+        <button class="btn btn-sm btn-primary" onclick="save()">Save</button>
+    </div>
+</body>
+</html>
+
+<!-- read passed Id using GET (by primary key), insert into page inputs -->
